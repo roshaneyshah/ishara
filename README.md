@@ -77,7 +77,3 @@ All intervals are cluster bootstrap intervals over held-out scenarios. The same 
 ## Tests
 
 `python -m pytest tests -q` runs the full pipeline with a stand-in model, and runs the real transformers and peft code on CPU with a tiny random model. Tested with transformers 5.17.0 and peft 0.21.0. The MiniCPM5-2B path itself has not been run, since that needs the GPU.
-
-## Disclosure
-
-The second coder is the author's brother. `results.md` states this.
