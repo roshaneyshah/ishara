@@ -1,0 +1,6 @@
+runs/*/scoring/
+runs/**/adapter/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/feedback_labels_TO_FILL.csv
