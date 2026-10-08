@@ -1,0 +1,82 @@
+# ISHARA run configuration.
+# Every run writes a manifest with the hash of this file, the prompt file, the split and the rubric.
+
+project_dir: .              # replace with your Colab or Kaggle project folder, e.g. /content/drive/MyDrive/ishara
+out_dir: runs
+
+model:
+  name: primary
+  hf_id: openbmb/MiniCPM5-2B
+  revision: 12a3808a956f869c767195e9266b59c4d21d92e2
+  trust_remote_code: true
+  dtype: float16
+  load_in_4bit: false                 # applies to the whole run if switched on, recorded in the manifest
+  chat_template_kwargs: {}            # e.g. {enable_thinking: false} if the model has a thinking mode
+
+generation:
+  max_new_tokens: 1024
+  n_samples: 4                        # samples per prompt
+  do_sample: true
+  temperature: 0.7
+  top_p: 0.9
+
+data:
+  prompts_file: data/prompts.csv
+  columns:                            # map your column names to the ones the code expects
+    prompt_id: prompt_id
+    scenario_id: scenario_id
+    language: language
+    context: context
+    prompt: prompt
+    reference: reference              # optional, intended meaning shown to coders. Leave the column out if you have none
+  language_values: {english: english, roman_urdu: roman_urdu}
+  context_values: {explicit: explicit, implicit: implicit}
+  split_file: data/split.json
+  heldout_fraction: 0.4
+  split_seed: 20260926
+
+rubric:
+  file: rubric.md
+  dimensions: [intent_inference, social_appropriateness, unsupported_assumptions, semantic_preservation]
+  min: 0
+  max: 2
+
+feedback:
+  budgets: [10, 25, 50, 100, 200]
+  seeds: [0, 1, 2]
+  labels_file: data/feedback_labels.csv   # thumbs up or down on A0 outputs from the feedback pool
+
+a1:
+  k_demos: 3
+
+a2:
+  fragments_file: configs/prompt_fragments.txt
+  population: 6
+  max_fragments: 5
+  eval_batch: 5                       # outputs per fitness evaluation, each output costs one signal
+  oracle: judge                       # judge or human
+  judge_thumbs_threshold: 6           # judge total out of 8 at or above this counts as thumbs up
+
+a3:
+  lora_r: 8
+  lora_alpha: 16
+  lora_dropout: 0.05
+  lr: 2.0e-4
+  epochs: 3
+  grad_accum: 4
+  max_len: 1536
+  gradient_checkpointing: true
+
+a4:
+  synthetic_file: data/synthetic_teacher.jsonl   # teacher outputs on feedback-pool prompts only
+  teacher_heldout_file: data/teacher_heldout.jsonl  # teacher outputs on held-out prompts, used only for RQ3 error transfer
+
+judge:
+  hf_id: null                         # set before using the judge, then validate it with `judge-agreement`
+  revision: null
+  trust_remote_code: false
+
+analysis:
+  n_boot: 2000
+  ci: 0.95
+  boot_seed: 1

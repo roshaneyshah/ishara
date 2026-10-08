@@ -1,0 +1,401 @@
+prompt_id,scenario_id,language,context,prompt
+E001,request_refusal,english,explicit,"Situation: A cousin asks you to lend them your laptop during your exam week.
+Context: You need the laptop for your own exam preparation.
+Task: Decline the request while preserving the relationship."
+E002,request_refusal,english,implicit,"Situation: A cousin asks you to lend them your laptop during your exam week.
+Task: Decline the request while preserving the relationship."
+E003,request_refusal,roman_urdu,implicit,"Situation: Cousin ne exam week mein apna laptop maangne ke liye message kiya hai.
+Task: Decline the request while preserving the relationship."
+E004,request_refusal,roman_urdu,explicit,"Situation: Cousin ne exam week mein apna laptop maangne ke liye message kiya hai.
+Context: You need the laptop for your own exam preparation.
+Task: Decline the request while preserving the relationship."
+E005,elder_disagreement,english,explicit,"Situation: An older relative gives you career advice that conflicts with your plans.
+Context: You want to disagree without sounding dismissive.
+Task: Reply in a way that communicates disagreement clearly and respectfully."
+E006,elder_disagreement,english,implicit,"Situation: An older relative gives you career advice that conflicts with your plans.
+Task: Reply in a way that communicates disagreement clearly and respectfully."
+E007,elder_disagreement,roman_urdu,implicit,"Situation: Ghar ke ek baray rishtedaar aapko career ka mashwara de rahe hain jo aapke plans se match nahi karta.
+Task: Reply in a way that communicates disagreement clearly and respectfully."
+E008,elder_disagreement,roman_urdu,explicit,"Situation: Ghar ke ek baray rishtedaar aapko career ka mashwara de rahe hain jo aapke plans se match nahi karta.
+Context: You want to disagree without sounding dismissive.
+Task: Reply in a way that communicates disagreement clearly and respectfully."
+E009,hosting_pressure,english,explicit,"Situation: A guest repeatedly says they have eaten enough, while the host keeps offering more food.
+Context: The guest wants to stop eating without insulting the host.
+Task: Explain what the guest is communicating and suggest an appropriate response."
+E010,hosting_pressure,english,implicit,"Situation: A guest repeatedly says they have eaten enough, while the host keeps offering more food.
+Task: Explain what the guest is communicating and suggest an appropriate response."
+E011,hosting_pressure,roman_urdu,implicit,"Situation: Mehmaan baar baar keh raha hai ke bas ho gaya, lekin host aur khana daalta ja raha hai.
+Task: Explain what the guest is communicating and suggest an appropriate response."
+E012,hosting_pressure,roman_urdu,explicit,"Situation: Mehmaan baar baar keh raha hai ke bas ho gaya, lekin host aur khana daalta ja raha hai.
+Context: The guest wants to stop eating without insulting the host.
+Task: Explain what the guest is communicating and suggest an appropriate response."
+E013,indirect_no,english,explicit,"Situation: A friend invites you to an event and you say you have a very early morning tomorrow.
+Context: You do not want to attend, but you avoid a direct refusal.
+Task: Infer the likely intent and explain it briefly."
+E014,indirect_no,english,implicit,"Situation: A friend invites you to an event and you say you have a very early morning tomorrow.
+Task: Infer the likely intent and explain it briefly."
+E015,indirect_no,roman_urdu,implicit,"Situation: Dost ne event pe bulaya aur aap ne kaha ke subah bohat jaldi uthna hai.
+Task: Infer the likely intent and explain it briefly."
+E016,indirect_no,roman_urdu,explicit,"Situation: Dost ne event pe bulaya aur aap ne kaha ke subah bohat jaldi uthna hai.
+Context: You do not want to attend, but you avoid a direct refusal.
+Task: Infer the likely intent and explain it briefly."
+E017,kinship_context,english,explicit,"Situation: Someone says their maternal aunt is coming over and they need to leave early.
+Context: The family relationship matters to the social context.
+Task: Identify the relationship and explain why leaving early may be reasonable."
+E018,kinship_context,english,implicit,"Situation: Someone says their maternal aunt is coming over and they need to leave early.
+Task: Identify the relationship and explain why leaving early may be reasonable."
+E019,kinship_context,roman_urdu,implicit,"Situation: Kisi ne kaha ke unki khala aa rahi hain is liye jaldi nikalna hai.
+Task: Identify the relationship and explain why leaving early may be reasonable."
+E020,kinship_context,roman_urdu,explicit,"Situation: Kisi ne kaha ke unki khala aa rahi hain is liye jaldi nikalna hai.
+Context: The family relationship matters to the social context.
+Task: Identify the relationship and explain why leaving early may be reasonable."
+E021,respect_register,english,explicit,"Situation: A younger person needs to ask an older family acquaintance to lower the music.
+Context: The request is reasonable, but status and politeness matter.
+Task: Write a concise request that preserves respect."
+E022,respect_register,english,implicit,"Situation: A younger person needs to ask an older family acquaintance to lower the music.
+Task: Write a concise request that preserves respect."
+E023,respect_register,roman_urdu,implicit,"Situation: Aapko ghar ke kisi baray waqif se kehna hai ke music thora halka kar dein.
+Task: Write a concise request that preserves respect."
+E024,respect_register,roman_urdu,explicit,"Situation: Aapko ghar ke kisi baray waqif se kehna hai ke music thora halka kar dein.
+Context: The request is reasonable, but status and politeness matter.
+Task: Write a concise request that preserves respect."
+E025,favor_indirect,english,explicit,"Situation: A classmate says, 'My printer is broken again' while looking at the document they need to submit.
+Context: They may be indirectly asking for help printing.
+Task: Infer the likely request without overstating certainty."
+E026,favor_indirect,english,implicit,"Situation: A classmate says, 'My printer is broken again' while looking at the document they need to submit.
+Task: Infer the likely request without overstating certainty."
+E027,favor_indirect,roman_urdu,implicit,"Situation: Class fellow submit karne wale document ko dekhte hue kehta hai, 'Mera printer phir se kharab hai.'
+Task: Infer the likely request without overstating certainty."
+E028,favor_indirect,roman_urdu,explicit,"Situation: Class fellow submit karne wale document ko dekhte hue kehta hai, 'Mera printer phir se kharab hai.'
+Context: They may be indirectly asking for help printing.
+Task: Infer the likely request without overstating certainty."
+E029,face_saving,english,explicit,"Situation: Someone is offered tea and says, 'Please, don't go to any trouble.'
+Context: The phrase can function as polite reluctance rather than a literal prohibition.
+Task: Explain the likely pragmatic meaning and what a host could do next."
+E030,face_saving,english,implicit,"Situation: Someone is offered tea and says, 'Please, don't go to any trouble.'
+Task: Explain the likely pragmatic meaning and what a host could do next."
+E031,face_saving,roman_urdu,implicit,"Situation: Kisi ko chai offer ki gayi to unhon ne kaha, 'Bas, takleef na karein.'
+Task: Explain the likely pragmatic meaning and what a host could do next."
+E032,face_saving,roman_urdu,explicit,"Situation: Kisi ko chai offer ki gayi to unhon ne kaha, 'Bas, takleef na karein.'
+Context: The phrase can function as polite reluctance rather than a literal prohibition.
+Task: Explain the likely pragmatic meaning and what a host could do next."
+E033,code_switch,english,explicit,"Situation: A teammate says, 'The deadline is tomorrow, but things are a bit tight.'
+Context: The speaker is mixing English and Roman Urdu.
+Task: Explain the practical meaning in plain English."
+E034,code_switch,english,implicit,"Situation: A teammate says, 'The deadline is tomorrow, but things are a bit tight.'
+Task: Explain the practical meaning in plain English."
+E035,code_switch,roman_urdu,implicit,"Situation: Team member kehta hai, 'Deadline kal hai, but scene thora tight hai.'
+Task: Explain the practical meaning in plain English."
+E036,code_switch,roman_urdu,explicit,"Situation: Team member kehta hai, 'Deadline kal hai, but scene thora tight hai.'
+Context: The speaker is mixing English and Roman Urdu.
+Task: Explain the practical meaning in plain English."
+E037,deference,english,explicit,"Situation: A student says to a professor, 'Sir, if possible, could the deadline be extended a little?'
+Context: The request is indirect and deferential.
+Task: State the request and identify the politeness strategy."
+E038,deference,english,implicit,"Situation: A student says to a professor, 'Sir, if possible, could the deadline be extended a little?'
+Task: State the request and identify the politeness strategy."
+E039,deference,roman_urdu,implicit,"Situation: Ek student professor se kehta hai, 'Sir, agar possible ho to deadline thori extend ho sakti hai?'
+Task: State the request and identify the politeness strategy."
+E040,deference,roman_urdu,explicit,"Situation: Ek student professor se kehta hai, 'Sir, agar possible ho to deadline thori extend ho sakti hai?'
+Context: The request is indirect and deferential.
+Task: State the request and identify the politeness strategy."
+E041,family_obligation,english,explicit,"Situation: A friend cancels plans because 'guests have come over to the house.'
+Context: Unexpected guests can create a family obligation.
+Task: Explain the reason for cancelling without adding unsupported assumptions."
+E042,family_obligation,english,implicit,"Situation: A friend cancels plans because 'guests have come over to the house.'
+Task: Explain the reason for cancelling without adding unsupported assumptions."
+E043,family_obligation,roman_urdu,implicit,"Situation: Dost ne plan cancel kar diya, keh raha hai 'ghar mein mehmaan aa gaye hain.'
+Task: Explain the reason for cancelling without adding unsupported assumptions."
+E044,family_obligation,roman_urdu,explicit,"Situation: Dost ne plan cancel kar diya, keh raha hai 'ghar mein mehmaan aa gaye hain.'
+Context: Unexpected guests can create a family obligation.
+Task: Explain the reason for cancelling without adding unsupported assumptions."
+E045,ambiguity,english,explicit,"Situation: Someone replies to an invitation with, 'We'll see, God willing.'
+Context: The wording may express uncertainty rather than a firm commitment.
+Task: Classify the commitment strength and explain your uncertainty."
+E046,ambiguity,english,implicit,"Situation: Someone replies to an invitation with, 'We'll see, God willing.'
+Task: Classify the commitment strength and explain your uncertainty."
+E047,ambiguity,roman_urdu,implicit,"Situation: Invitation ke jawab mein kisi ne kaha, 'Dekhte hain, InshaAllah.'
+Task: Classify the commitment strength and explain your uncertainty."
+E048,ambiguity,roman_urdu,explicit,"Situation: Invitation ke jawab mein kisi ne kaha, 'Dekhte hain, InshaAllah.'
+Context: The wording may express uncertainty rather than a firm commitment.
+Task: Classify the commitment strength and explain your uncertainty."
+E049,borrowed_money,english,explicit,"Situation: A friend borrowed money from you two months ago and has not mentioned it since.
+Context: You want the money back but do not want to embarrass your friend.
+Task: Write a short message that reminds your friend about the money."
+E050,borrowed_money,english,implicit,"Situation: A friend borrowed money from you two months ago and has not mentioned it since.
+Task: Write a short message that reminds your friend about the money."
+E051,borrowed_money,roman_urdu,implicit,"Situation: Dost ne do mahine pehle aap se paise udhaar liye thay aur tab se koi zikr nahi kiya.
+Task: Write a short message that reminds your friend about the money."
+E052,borrowed_money,roman_urdu,explicit,"Situation: Dost ne do mahine pehle aap se paise udhaar liye thay aur tab se koi zikr nahi kiya.
+Context: You want the money back but do not want to embarrass your friend.
+Task: Write a short message that reminds your friend about the money."
+E053,wedding_decline,english,explicit,"Situation: A distant relative invites you to a wedding in another city on a weekday.
+Context: You cannot travel, and a flat refusal could offend the family.
+Task: Write a reply that declines the invitation politely."
+E054,wedding_decline,english,implicit,"Situation: A distant relative invites you to a wedding in another city on a weekday.
+Task: Write a reply that declines the invitation politely."
+E055,wedding_decline,roman_urdu,implicit,"Situation: Ek door ke rishtedaar ne aapko doosre shehar mein weekday par shaadi ki dawat di hai.
+Task: Write a reply that declines the invitation politely."
+E056,wedding_decline,roman_urdu,explicit,"Situation: Ek door ke rishtedaar ne aapko doosre shehar mein weekday par shaadi ki dawat di hai.
+Context: You cannot travel, and a flat refusal could offend the family.
+Task: Write a reply that declines the invitation politely."
+E057,neighbor_parking,english,explicit,"Situation: A neighbor keeps parking in front of your gate, so you cannot take your car out.
+Context: You want the problem solved while staying on good terms with the neighbor.
+Task: Write what you would say to the neighbor."
+E058,neighbor_parking,english,implicit,"Situation: A neighbor keeps parking in front of your gate, so you cannot take your car out.
+Task: Write what you would say to the neighbor."
+E059,neighbor_parking,roman_urdu,implicit,"Situation: Hamsaye roz aapke gate ke saamne gaari park kar dete hain aur aap apni gaari nahi nikaal sakte.
+Task: Write what you would say to the neighbor."
+E060,neighbor_parking,roman_urdu,explicit,"Situation: Hamsaye roz aapke gate ke saamne gaari park kar dete hain aur aap apni gaari nahi nikaal sakte.
+Context: You want the problem solved while staying on good terms with the neighbor.
+Task: Write what you would say to the neighbor."
+E061,softened_criticism,english,explicit,"Situation: A teacher says, 'Your essay was interesting, but it could be more focused.'
+Context: The comment softens criticism with praise.
+Task: Explain what the teacher is asking the student to change."
+E062,softened_criticism,english,implicit,"Situation: A teacher says, 'Your essay was interesting, but it could be more focused.'
+Task: Explain what the teacher is asking the student to change."
+E063,softened_criticism,roman_urdu,implicit,"Situation: Teacher ne kaha, 'Aapka essay interesting tha, lekin thora aur focused ho sakta tha.'
+Task: Explain what the teacher is asking the student to change."
+E064,softened_criticism,roman_urdu,explicit,"Situation: Teacher ne kaha, 'Aapka essay interesting tha, lekin thora aur focused ho sakta tha.'
+Context: The comment softens criticism with praise.
+Task: Explain what the teacher is asking the student to change."
+E065,guest_overstay,english,explicit,"Situation: A guest has stayed late, and the host says, 'You must be tired, and you have work tomorrow.'
+Context: The host may be hinting that it is time for the guest to leave.
+Task: Infer what the host means and explain it briefly."
+E066,guest_overstay,english,implicit,"Situation: A guest has stayed late, and the host says, 'You must be tired, and you have work tomorrow.'
+Task: Infer what the host means and explain it briefly."
+E067,guest_overstay,roman_urdu,implicit,"Situation: Mehmaan der tak baithe hain aur host kehta hai, 'Aap thak gaye honge, kal aapko kaam pe bhi jana hai.'
+Task: Infer what the host means and explain it briefly."
+E068,guest_overstay,roman_urdu,explicit,"Situation: Mehmaan der tak baithe hain aur host kehta hai, 'Aap thak gaye honge, kal aapko kaam pe bhi jana hai.'
+Context: The host may be hinting that it is time for the guest to leave.
+Task: Infer what the host means and explain it briefly."
+E069,mother_phone,english,explicit,"Situation: Your mother says her phone has stopped working again and hands it to you.
+Context: She is asking for help without asking directly.
+Task: State the request and suggest a respectful response."
+E070,mother_phone,english,implicit,"Situation: Your mother says her phone has stopped working again and hands it to you.
+Task: State the request and suggest a respectful response."
+E071,mother_phone,roman_urdu,implicit,"Situation: Ammi kehti hain ke unka phone phir se kaam nahi kar raha aur phone aapko pakra deti hain.
+Task: State the request and suggest a respectful response."
+E072,mother_phone,roman_urdu,explicit,"Situation: Ammi kehti hain ke unka phone phir se kaam nahi kar raha aur phone aapko pakra deti hain.
+Context: She is asking for help without asking directly.
+Task: State the request and suggest a respectful response."
+E073,weekend_request,english,explicit,"Situation: Your manager messages on Friday evening, 'If you get a chance this weekend, could you look at the report?'
+Context: The request is framed as optional, but it comes from someone with authority.
+Task: Explain how optional the request is and suggest a reply."
+E074,weekend_request,english,implicit,"Situation: Your manager messages on Friday evening, 'If you get a chance this weekend, could you look at the report?'
+Task: Explain how optional the request is and suggest a reply."
+E075,weekend_request,roman_urdu,implicit,"Situation: Manager Friday shaam ko message karta hai, 'Agar weekend pe time mile to report dekh lena?'
+Task: Explain how optional the request is and suggest a reply."
+E076,weekend_request,roman_urdu,explicit,"Situation: Manager Friday shaam ko message karta hai, 'Agar weekend pe time mile to report dekh lena?'
+Context: The request is framed as optional, but it comes from someone with authority.
+Task: Explain how optional the request is and suggest a reply."
+E077,hardly_eaten,english,explicit,"Situation: At dinner, the host's mother says to a guest, 'You have hardly eaten anything.'
+Context: The remark is an offer of more food and not a literal observation.
+Task: Explain what she means and suggest a polite reply if the guest is full."
+E078,hardly_eaten,english,implicit,"Situation: At dinner, the host's mother says to a guest, 'You have hardly eaten anything.'
+Task: Explain what she means and suggest a polite reply if the guest is full."
+E079,hardly_eaten,roman_urdu,implicit,"Situation: Dinner pe host ki ammi mehmaan se kehti hain, 'Aap ne to kuch khaya hi nahi.'
+Task: Explain what she means and suggest a polite reply if the guest is full."
+E080,hardly_eaten,roman_urdu,explicit,"Situation: Dinner pe host ki ammi mehmaan se kehti hain, 'Aap ne to kuch khaya hi nahi.'
+Context: The remark is an offer of more food and not a literal observation.
+Task: Explain what she means and suggest a polite reply if the guest is full."
+E081,headphones_hint,english,explicit,"Situation: Your younger brother says, 'Your headphones are really nice.'
+Context: He may want to borrow them.
+Task: Infer the likely request without overstating certainty."
+E082,headphones_hint,english,implicit,"Situation: Your younger brother says, 'Your headphones are really nice.'
+Task: Infer the likely request without overstating certainty."
+E083,headphones_hint,roman_urdu,implicit,"Situation: Chhota bhai kehta hai, 'Aapke headphones bohat achay hain.'
+Task: Infer the likely request without overstating certainty."
+E084,headphones_hint,roman_urdu,explicit,"Situation: Chhota bhai kehta hai, 'Aapke headphones bohat achay hain.'
+Context: He may want to borrow them.
+Task: Infer the likely request without overstating certainty."
+E085,shop_price,english,explicit,"Situation: A shopkeeper says, 'For you, this is already the lowest price.'
+Context: The statement is part of bargaining and may not be literal.
+Task: Explain the likely meaning and suggest how a customer could respond."
+E086,shop_price,english,implicit,"Situation: A shopkeeper says, 'For you, this is already the lowest price.'
+Task: Explain the likely meaning and suggest how a customer could respond."
+E087,shop_price,roman_urdu,implicit,"Situation: Dukandaar kehta hai, 'Aap ke liye to yeh pehle hi sab se kam price hai.'
+Task: Explain the likely meaning and suggest how a customer could respond."
+E088,shop_price,roman_urdu,explicit,"Situation: Dukandaar kehta hai, 'Aap ke liye to yeh pehle hi sab se kam price hai.'
+Context: The statement is part of bargaining and may not be literal.
+Task: Explain the likely meaning and suggest how a customer could respond."
+E089,condolence_visit,english,explicit,"Situation: A colleague's father has passed away, and you are visiting their home for the first time.
+Context: The visit calls for brief, respectful words and not a long conversation.
+Task: Write what you would say when you arrive."
+E090,condolence_visit,english,implicit,"Situation: A colleague's father has passed away, and you are visiting their home for the first time.
+Task: Write what you would say when you arrive."
+E091,condolence_visit,roman_urdu,implicit,"Situation: Colleague ke walid ka intiqaal ho gaya hai aur aap pehli dafa unke ghar ja rahe hain.
+Task: Write what you would say when you arrive."
+E092,condolence_visit,roman_urdu,explicit,"Situation: Colleague ke walid ka intiqaal ho gaya hai aur aap pehli dafa unke ghar ja rahe hain.
+Context: The visit calls for brief, respectful words and not a long conversation.
+Task: Write what you would say when you arrive."
+E093,driving_call,english,explicit,"Situation: You call a friend and they answer, 'Yes, tell me, I'm driving.'
+Context: The friend may be signaling that the call should be short.
+Task: Infer what the friend is signaling and suggest how to continue the call."
+E094,driving_call,english,implicit,"Situation: You call a friend and they answer, 'Yes, tell me, I'm driving.'
+Task: Infer what the friend is signaling and suggest how to continue the call."
+E095,driving_call,roman_urdu,implicit,"Situation: Aap dost ko call karte hain aur woh kehta hai, 'Haan bolo, main drive kar raha hoon.'
+Task: Infer what the friend is signaling and suggest how to continue the call."
+E096,driving_call,roman_urdu,explicit,"Situation: Aap dost ko call karte hain aur woh kehta hai, 'Haan bolo, main drive kar raha hoon.'
+Context: The friend may be signaling that the call should be short.
+Task: Infer what the friend is signaling and suggest how to continue the call."
+E097,help_refusal,english,explicit,"Situation: You offer to help an elderly neighbor carry her groceries, and she says, 'No, no, I can manage.'
+Context: The refusal may be politeness and not a real refusal.
+Task: Explain the likely meaning and what you could do next."
+E098,help_refusal,english,implicit,"Situation: You offer to help an elderly neighbor carry her groceries, and she says, 'No, no, I can manage.'
+Task: Explain the likely meaning and what you could do next."
+E099,help_refusal,roman_urdu,implicit,"Situation: Aap buzurg hamsayi ko samaan uthane mein madad offer karte hain aur woh kehti hain, 'Nahi nahi, main kar lungi.'
+Task: Explain the likely meaning and what you could do next."
+E100,help_refusal,roman_urdu,explicit,"Situation: Aap buzurg hamsayi ko samaan uthane mein madad offer karte hain aur woh kehti hain, 'Nahi nahi, main kar lungi.'
+Context: The refusal may be politeness and not a real refusal.
+Task: Explain the likely meaning and what you could do next."
+E101,group_silence,english,explicit,"Situation: You propose a trip in a family group chat, and nobody replies for two days.
+Context: Silence may be a way of avoiding a direct no.
+Task: Interpret the silence without adding unsupported assumptions."
+E102,group_silence,english,implicit,"Situation: You propose a trip in a family group chat, and nobody replies for two days.
+Task: Interpret the silence without adding unsupported assumptions."
+E103,group_silence,roman_urdu,implicit,"Situation: Aap family group chat mein trip ka plan share karte hain aur do din tak koi jawab nahi deta.
+Task: Interpret the silence without adding unsupported assumptions."
+E104,group_silence,roman_urdu,explicit,"Situation: Aap family group chat mein trip ka plan share karte hain aur do din tak koi jawab nahi deta.
+Context: Silence may be a way of avoiding a direct no.
+Task: Interpret the silence without adding unsupported assumptions."
+E105,late_arrival,english,explicit,"Situation: A colleague arrives late and says, 'The traffic was terrible today.'
+Context: The statement serves as an apology as well as an explanation.
+Task: Explain what the colleague is communicating and suggest a reply."
+E106,late_arrival,english,implicit,"Situation: A colleague arrives late and says, 'The traffic was terrible today.'
+Task: Explain what the colleague is communicating and suggest a reply."
+E107,late_arrival,roman_urdu,implicit,"Situation: Colleague late aata hai aur kehta hai, 'Aaj traffic bohat zyada tha.'
+Task: Explain what the colleague is communicating and suggest a reply."
+E108,late_arrival,roman_urdu,explicit,"Situation: Colleague late aata hai aur kehta hai, 'Aaj traffic bohat zyada tha.'
+Context: The statement serves as an apology as well as an explanation.
+Task: Explain what the colleague is communicating and suggest a reply."
+E109,gift_modesty,english,explicit,"Situation: You give a gift to a senior colleague, and they say, 'Why did you do this? There was no need.'
+Context: The phrase can express thanks and modesty and does not reject the gift.
+Task: Explain the likely meaning and how to respond."
+E110,gift_modesty,english,implicit,"Situation: You give a gift to a senior colleague, and they say, 'Why did you do this? There was no need.'
+Task: Explain the likely meaning and how to respond."
+E111,gift_modesty,roman_urdu,implicit,"Situation: Aap senior colleague ko gift dete hain aur woh kehte hain, 'Is ki kya zaroorat thi?'
+Task: Explain the likely meaning and how to respond."
+E112,gift_modesty,roman_urdu,explicit,"Situation: Aap senior colleague ko gift dete hain aur woh kehte hain, 'Is ki kya zaroorat thi?'
+Context: The phrase can express thanks and modesty and does not reject the gift.
+Task: Explain the likely meaning and how to respond."
+E113,grades_question,english,explicit,"Situation: At a family gathering, an aunt asks you in front of everyone what grades you got.
+Context: You do not want to share your grades, but a blunt refusal would seem rude.
+Task: Write a reply that avoids the question politely."
+E114,grades_question,english,implicit,"Situation: At a family gathering, an aunt asks you in front of everyone what grades you got.
+Task: Write a reply that avoids the question politely."
+E115,grades_question,roman_urdu,implicit,"Situation: Family gathering mein ek aunty sab ke saamne poochti hain ke aapke grades kya aaye.
+Task: Write a reply that avoids the question politely."
+E116,grades_question,roman_urdu,explicit,"Situation: Family gathering mein ek aunty sab ke saamne poochti hain ke aapke grades kya aaye.
+Context: You do not want to share your grades, but a blunt refusal would seem rude.
+Task: Write a reply that avoids the question politely."
+E117,roommate_noise,english,explicit,"Situation: Your roommate asks, 'Were you on a call late last night?'
+Context: The question may be an indirect complaint about noise.
+Task: Infer the likely intent and explain it briefly."
+E118,roommate_noise,english,implicit,"Situation: Your roommate asks, 'Were you on a call late last night?'
+Task: Infer the likely intent and explain it briefly."
+E119,roommate_noise,roman_urdu,implicit,"Situation: Roommate poochta hai, 'Kal raat aap der tak call pe thay?'
+Task: Infer the likely intent and explain it briefly."
+E120,roommate_noise,roman_urdu,explicit,"Situation: Roommate poochta hai, 'Kal raat aap der tak call pe thay?'
+Context: The question may be an indirect complaint about noise.
+Task: Infer the likely intent and explain it briefly."
+E121,car_prerequest,english,explicit,"Situation: A cousin asks, 'Are you using your car on Saturday?'
+Context: The question may come before a request to borrow the car.
+Task: Infer the likely request without overstating certainty."
+E122,car_prerequest,english,implicit,"Situation: A cousin asks, 'Are you using your car on Saturday?'
+Task: Infer the likely request without overstating certainty."
+E123,car_prerequest,roman_urdu,implicit,"Situation: Cousin poochta hai, 'Saturday ko aap gaari use kar rahe hain?'
+Task: Infer the likely request without overstating certainty."
+E124,car_prerequest,roman_urdu,explicit,"Situation: Cousin poochta hai, 'Saturday ko aap gaari use kar rahe hain?'
+Context: The question may come before a request to borrow the car.
+Task: Infer the likely request without overstating certainty."
+E125,elder_wrong_fact,english,explicit,"Situation: During a family dinner, an elderly relative states a date that you know is wrong.
+Context: Correcting an elder in public can embarrass them.
+Task: Decide whether and how to correct them, and write what you would say."
+E126,elder_wrong_fact,english,implicit,"Situation: During a family dinner, an elderly relative states a date that you know is wrong.
+Task: Decide whether and how to correct them, and write what you would say."
+E127,elder_wrong_fact,roman_urdu,implicit,"Situation: Family dinner pe ek buzurg rishtedaar ek tareekh batate hain jo aapko pata hai ke ghalat hai.
+Task: Decide whether and how to correct them, and write what you would say."
+E128,elder_wrong_fact,roman_urdu,explicit,"Situation: Family dinner pe ek buzurg rishtedaar ek tareekh batate hain jo aapko pata hai ke ghalat hai.
+Context: Correcting an elder in public can embarrass them.
+Task: Decide whether and how to correct them, and write what you would say."
+E129,salary_question,english,explicit,"Situation: A new acquaintance asks how much you earn.
+Context: You do not want to share the number but do not want to seem cold.
+Task: Write a reply that deflects the question politely."
+E130,salary_question,english,implicit,"Situation: A new acquaintance asks how much you earn.
+Task: Write a reply that deflects the question politely."
+E131,salary_question,roman_urdu,implicit,"Situation: Ek naye jaan pehchan wale poochte hain ke aap kitna kamate hain.
+Task: Write a reply that deflects the question politely."
+E132,salary_question,roman_urdu,explicit,"Situation: Ek naye jaan pehchan wale poochte hain ke aap kitna kamate hain.
+Context: You do not want to share the number but do not want to seem cold.
+Task: Write a reply that deflects the question politely."
+E133,stay_for_dinner,english,explicit,"Situation: You say you need to leave, and the host says, 'At least have dinner before you go.'
+Context: The insistence shows hospitality, and the guest may still leave.
+Task: Explain what the host is communicating and suggest a reply if the guest must leave."
+E134,stay_for_dinner,english,implicit,"Situation: You say you need to leave, and the host says, 'At least have dinner before you go.'
+Task: Explain what the host is communicating and suggest a reply if the guest must leave."
+E135,stay_for_dinner,roman_urdu,implicit,"Situation: Aap kehte hain ke jana hai, aur host kehta hai, 'Kam az kam khana kha kar jayein.'
+Task: Explain what the host is communicating and suggest a reply if the guest must leave."
+E136,stay_for_dinner,roman_urdu,explicit,"Situation: Aap kehte hain ke jana hai, aur host kehta hai, 'Kam az kam khana kha kar jayein.'
+Context: The insistence shows hospitality, and the guest may still leave.
+Task: Explain what the host is communicating and suggest a reply if the guest must leave."
+E137,indirect_apology,english,explicit,"Situation: After an argument, your friend messages, 'I made the dish you like. Come over if you are free.'
+Context: The invitation may be an indirect apology.
+Task: Infer what the friend is communicating and explain it briefly."
+E138,indirect_apology,english,implicit,"Situation: After an argument, your friend messages, 'I made the dish you like. Come over if you are free.'
+Task: Infer what the friend is communicating and explain it briefly."
+E139,indirect_apology,roman_urdu,implicit,"Situation: Jhagray ke baad dost message karta hai, 'Tumhari pasand ki dish banayi hai, free ho to aa jao.'
+Task: Infer what the friend is communicating and explain it briefly."
+E140,indirect_apology,roman_urdu,explicit,"Situation: Jhagray ke baad dost message karta hai, 'Tumhari pasand ki dish banayi hai, free ho to aa jao.'
+Context: The invitation may be an indirect apology.
+Task: Infer what the friend is communicating and explain it briefly."
+E141,client_handover,english,explicit,"Situation: A colleague going on leave says, 'You know how this client is, right?'
+Context: The colleague may be asking you to handle the client without saying so.
+Task: Infer the likely request without overstating certainty."
+E142,client_handover,english,implicit,"Situation: A colleague going on leave says, 'You know how this client is, right?'
+Task: Infer the likely request without overstating certainty."
+E143,client_handover,roman_urdu,implicit,"Situation: Chhutti pe jaane wala colleague kehta hai, 'Aapko pata hai na yeh client kaisa hai?'
+Task: Infer the likely request without overstating certainty."
+E144,client_handover,roman_urdu,explicit,"Situation: Chhutti pe jaane wala colleague kehta hai, 'Aapko pata hai na yeh client kaisa hai?'
+Context: The colleague may be asking you to handle the client without saying so.
+Task: Infer the likely request without overstating certainty."
+E145,bring_nothing,english,explicit,"Situation: You ask the host what to bring to dinner, and she says, 'Nothing, just come yourself.'
+Context: The reply is polite, but arriving empty-handed may still seem odd.
+Task: Explain the likely meaning and suggest what the guest could do."
+E146,bring_nothing,english,implicit,"Situation: You ask the host what to bring to dinner, and she says, 'Nothing, just come yourself.'
+Task: Explain the likely meaning and suggest what the guest could do."
+E147,bring_nothing,roman_urdu,implicit,"Situation: Aap host se poochte hain ke dinner pe kya laayein, aur woh kehti hain, 'Kuch nahi, bas aap aa jayein.'
+Task: Explain the likely meaning and suggest what the guest could do."
+E148,bring_nothing,roman_urdu,explicit,"Situation: Aap host se poochte hain ke dinner pe kya laayein, aur woh kehti hain, 'Kuch nahi, bas aap aa jayein.'
+Context: The reply is polite, but arriving empty-handed may still seem odd.
+Task: Explain the likely meaning and suggest what the guest could do."
+E149,younger_cousin_plan,english,explicit,"Situation: A younger cousin asks for your opinion on their plan to drop out of university.
+Context: You disagree with the plan but do not want to sound like you are lecturing.
+Task: Reply in a way that communicates your view clearly and respectfully."
+E150,younger_cousin_plan,english,implicit,"Situation: A younger cousin asks for your opinion on their plan to drop out of university.
+Task: Reply in a way that communicates your view clearly and respectfully."
+E151,younger_cousin_plan,roman_urdu,implicit,"Situation: Chhota cousin university chhorne ke plan par aapki raaye poochta hai.
+Task: Reply in a way that communicates your view clearly and respectfully."
+E152,younger_cousin_plan,roman_urdu,explicit,"Situation: Chhota cousin university chhorne ke plan par aapki raaye poochta hai.
+Context: You disagree with the plan but do not want to sound like you are lecturing.
+Task: Reply in a way that communicates your view clearly and respectfully."
+E153,praise_deflection,english,explicit,"Situation: You compliment a colleague on their presentation, and they say, 'Oh, it was nothing, the team did everything.'
+Context: The reply is modesty and does not mean the compliment was unwelcome.
+Task: Explain what the colleague is communicating and suggest a reply."
+E154,praise_deflection,english,implicit,"Situation: You compliment a colleague on their presentation, and they say, 'Oh, it was nothing, the team did everything.'
+Task: Explain what the colleague is communicating and suggest a reply."
+E155,praise_deflection,roman_urdu,implicit,"Situation: Aap colleague ki presentation ki tareef karte hain aur woh kehta hai, 'Arre, kuch bhi nahi, sab team ne kiya.'
+Task: Explain what the colleague is communicating and suggest a reply."
+E156,praise_deflection,roman_urdu,explicit,"Situation: Aap colleague ki presentation ki tareef karte hain aur woh kehta hai, 'Arre, kuch bhi nahi, sab team ne kiya.'
+Context: The reply is modesty and does not mean the compliment was unwelcome.
+Task: Explain what the colleague is communicating and suggest a reply."
+E157,midnight_message,english,explicit,"Situation: A friend messages you at midnight, 'Are you awake?'
+Context: The message may lead in to something the friend wants to talk about.
+Task: Infer the likely intent and suggest a reply."
+E158,midnight_message,english,implicit,"Situation: A friend messages you at midnight, 'Are you awake?'
+Task: Infer the likely intent and suggest a reply."
+E159,midnight_message,roman_urdu,implicit,"Situation: Dost raat ke barah baje message karta hai, 'Jaag rahe ho?'
+Task: Infer the likely intent and suggest a reply."
+E160,midnight_message,roman_urdu,explicit,"Situation: Dost raat ke barah baje message karta hai, 'Jaag rahe ho?'
+Context: The message may lead in to something the friend wants to talk about.
+Task: Infer the likely intent and suggest a reply."

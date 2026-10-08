@@ -1,0 +1,13 @@
+# Do not reinstall torch on Colab or Kaggle. Use the one the runtime provides.
+# Use the same transformers version as your baseline rerun if MiniCPM5-2B needs trust_remote_code.
+transformers>=4.56
+peft>=0.13
+accelerate
+pandas
+numpy
+matplotlib
+pyyaml
+# only if you set load_in_4bit: true
+# bitsandbytes
+# tests
+pytest
